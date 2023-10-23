@@ -1,5 +1,7 @@
 # sagemaker-canvas-lab
 
-![Alt text](image.png)
+Do these screenshots still work?
 
-![Alt text](image-1.png)
+![Alt text](screenshots/image.png)
+
+![Alt text](screenshots/image-1.png)
