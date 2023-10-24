@@ -14,7 +14,7 @@
 
 In this lab, you will learn how to use Amazon SageMaker Canvas to import and analyze a dataset for housing prices, and build a ML model to predict pricing without having to write a single line of code. Since the prices can be in any range of real values, this ML problem is called "Regression".
 
-The dataset we will use is from the [Housing and Development Board (HDB) Resale Flat Prices](https://beta.data.gov.sg/collections/189/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view). You can view the full datasets at the link above, however we're going to use a truncated file so that our model builds faster.
+The dataset we will use is from the [Housing and Development Board (HDB) Resale Flat Prices](https://beta.data.gov.sg/collections/189/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view). You can view the full datasets at the link above, however we're going to use a truncated file from the most recent HDB dataset so that our model builds faster.
 
 | Column Name         | Data Type |
 | ------------------- | :-------: |
@@ -35,9 +35,9 @@ Amazon SageMaker Canvas is a new visual, no code capability that allows business
 
 SageMaker Canvas leverages the same technology as Amazon SageMaker to automatically clean and combine your data, create hundreds of models under the hood, select the best performing one, and generate new individual or batch predictions. It supports multiple problem types such as binary classification, multi-class classification, numerical regression, and time series forecasting. These problem types let you address business-critical use cases, such as fraud detection, churn reduction, and inventory optimization, without writing a single line of code.
 
-Before we can start using SageMaker Canvas, we'll need to create a SageMaker Studio environment. This is a one-time setup, and will allow you to use all of the different features of SageMaker Studio in today's lab and beyond.
-
 ## Setting up your SageMaker Studio environment
+
+Before we can start using SageMaker Canvas, we'll need to create a SageMaker Studio environment. This is a one-time setup, and will allow you to use all of the different features of SageMaker Studio in today's lab and beyond.
 
 Here are the one-time steps for onboarding to Amazon SageMaker Canvas using Quick Setup:
 
