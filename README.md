@@ -2,6 +2,14 @@
 
 ## Agenda
 
+- [Overview](#overview)
+- [Launch Amazon SageMaker Canvas](#launch-amazon-sagemaker-canvas)
+- [Setting up your SageMaker Studio environment](#setting-up-your-sagemaker-studio-environment)
+- [Creating a Dataset](#creating-a-dataset)
+- [Building a Model](#building-a-model)
+- [Model Analysis](#model-analysis)
+- [Making Predictions](#making-predictions)
+
 ## Overview
 
 In this lab, you will learn how to use Amazon SageMaker Canvas to import and analyze a dataset for housing prices, and build a ML model to predict pricing without having to write a single line of code. Since the prices can be in any range of real values, this ML problem is called "Regression".
