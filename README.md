@@ -188,4 +188,5 @@ If you wish to continue exploring SageMaker Canvas, you could do one of the foll
 > SageMaker Canvas will not automatically shut down its resources if you do not log out!
 
 Click on the **Logout** button at the bottom of the left-hand panel to ensure that SageMaker Canvas shuts down any resources it is using. Your Datasets and Models will not be deleted, and you can access them again in the future by opening SageMaker Canvas again from the AWS Console.
+
 ![Alt text](img/image-22.png)
