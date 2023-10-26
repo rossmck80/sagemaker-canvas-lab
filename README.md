@@ -9,6 +9,7 @@
 - [Building a Model](#building-a-model)
 - [Model Analysis](#model-analysis)
 - [Making Predictions](#making-predictions)
+- [Cleanup](#cleanup)
 
 ## Overview
 
@@ -117,7 +118,11 @@ For Model type, SageMaker Canvas may default to Time series forecasting, however
 
 ![Alt text](img/image-14.png)
 
-Let's go ahead and click **Quick build**.
+If we want to, we can click on the **Preview model** button to see how accurate SageMaker Canvas thinks our model will be, as well as what impact each column in the dataset has on the accuracy of the final model. Running the preview takes a few minutes, but gives us some insight into how successful our model will be.
+
+![Alt text](img/image-21.png)
+
+Let's leave all of the columns selected and click **Quick build**.
 
 ## Model Analysis
 
@@ -171,6 +176,16 @@ This allows you to see how changing features of the property affect the resale v
 
 If you wish to continue exploring SageMaker Canvas, you could do one of the following
 
+- See if you can improve your RMSE with the Quick Build by changing which columns are included. You can always go back to the [Model Analysis](#model-analysis) steps to see which columns had the most impact on prediction in your model.
+
 - Go back and build another model using the same dataset, only this time use the Standard build and see how its performance compares to the Quick Build.
 - Use your existing model to make predictions on a different dataset than the one used to train the model. To do this, create a new Dataset using the [predictionDataset.csv](data/predictionData.csv) file in this repository. This file is in the same format as [resaleData.csv](data/resaleData.csv), but with data from an earlier time period.
 - Build a new model from a much larger dataset. The datasets we've used in this lab are from Singapore's [Housing and Development Board (HDB) Resale Flat Prices](https://beta.data.gov.sg/collections/189/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view). You can download the full datasets from the link above.
+
+## Cleanup
+
+> [!ALERT]
+> SageMaker Canvas will not automatically shut down its resources if you do not log out!
+
+Click on the **Logout** button at the bottom of the left-hand panel to ensure that SageMaker Canvas shuts down any resources it is using. Your Datasets and Models will not be deleted, and you can access them again in the future by opening SageMaker Canvas again from the AWS Console.
+![Alt text](img/image-22.png)
